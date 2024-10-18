@@ -142,7 +142,7 @@
     "../node_modules/@nuxt/content/runtime/server",
     "../node_modules/shadcn-nuxt/runtime/server",
     "../node_modules/nuxt-gtag/runtime/server",
-    "../node/runtime/server",
+    "../../runtime/server",
     "../node_modules/@nuxt/devtools/runtime/server",
     "../node_modules/@nuxt/telemetry/runtime/server",
     "./types/nitro.d.ts",

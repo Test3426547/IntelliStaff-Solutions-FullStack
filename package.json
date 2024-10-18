@@ -24,6 +24,7 @@
     "@vueuse/core": "^10.3.0",
     "@vueuse/motion": "^2.0.0",
     "@vueuse/nuxt": "^10.3.0",
+    "gsap": "^3.12.5",
     "nuxt-gtag": "^0.5.7",
     "pinia": "^2.1.6",
     "radix-vue": "^0.4.1",

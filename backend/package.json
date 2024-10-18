@@ -1,0 +1,49 @@
+{
+  "name": "ai-recruitment-platform-backend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start:dev": "ts-node-dev --respawn --transpile-only src/main.ts",
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix"
+  },
+  "dependencies": {
+    "@nestjs/common": "^8.0.0",
+    "@nestjs/core": "^8.0.0",
+    "@nestjs/passport": "^10.0.3",
+    "@nestjs/platform-express": "^8.0.0",
+    "@nestjs/typeorm": "^8.0.0",
+    "@tensorflow/tfjs-node": "^4.15.0",
+    "@vercel/ai": "^0.1.0",
+    "anthropic": "^0.8.0",
+    "axios": "^0.21.1",
+    "brain.js": "^2.0.0-beta.23",
+    "cheerio": "^1.0.0-rc.10",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.0",
+    "ml5": "^0.12.2",
+    "nlp.js": "^4.27.0",
+    "openai": "^4.0.0",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.2.0",
+    "sqlite3": "^5.0.2",
+    "synaptic": "^1.1.4",
+    "typeorm": "^0.2.34"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^16.0.0",
+    "@types/passport-jwt": "^4.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^8.0.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.3.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.3.5"
+  }
+}
